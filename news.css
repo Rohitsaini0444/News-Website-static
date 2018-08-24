@@ -1,0 +1,126 @@
+.main-container{
+   margin-left:2%;
+   margin-right:2%;
+   border: solid initial;
+    
+}
+
+.logo{
+    width: 100%;
+    height:auto;
+    box-shadow: 0px 3px 0px 0px #dbdcdc;
+    display: flex;
+}
+.logo-img{
+    flex:1;
+    height: 80%;
+    width:auto;
+    margin-bottom: 2%;
+
+}
+.main-heading
+{   flex:4; 
+    text-align: left;
+    font-size: 25px;
+    padding-left: 5%;
+  
+
+}  
+.menu{
+    display: flex;
+    font-size: 15px;
+    margin-top:2%;
+    
+}
+
+.menu div{
+    flex: 4;
+margin-left:15%;
+}
+/*.img-dog{
+margin-top: 2%;
+width: 100%;
+height:auto;
+box-shadow: 0.5px 0.5px 0.5px 0.5px initial ;
+
+} */
+.top-section{
+
+border: solid initial;
+position: relative;
+}
+.top-section div-img{
+   
+    
+}
+.top-section div-img{
+    position: absolute;
+
+
+}
+
+
+
+table{
+  
+  width:80%;
+  text-align:center;
+  margin-bottom:2%;
+  
+  
+  
+}
+table td {
+    margin: 0px;
+    padding: 0.3em;
+
+}
+#tt td:nth-child(even){
+    background-color: antiquewhite;
+}
+.last-section{
+    
+display:flex;
+flex-direction: column;
+}
+
+.last-section article{
+  
+flex:1;
+display: flex;
+margin-top:2%;
+
+}
+
+.last-section-img{
+   flex:1; 
+   width:10%;
+   height:10%;
+}
+.last-section div{
+    flex:5;
+    margin-left:1%;
+}
+
+.last-section h3{
+    padding: 0px;
+}
+footer
+{
+    box-shadow: 0px 0px 3px 1px;
+  
+}
+footer table{
+    
+    width: 50%;
+    margin-top: 2%;
+   
+}
+@media screen and (max-width:800px) and (min-width:600px)
+{ 
+  table td{
+      background-color:rgb(142, 179, 214);
+   
+    }
+
+}
